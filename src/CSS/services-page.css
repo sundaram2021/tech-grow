@@ -1,0 +1,459 @@
+/* body {
+    background-color: rgb(190, 187, 187);
+    color: #191919;
+} */
+
+.research-services > h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.research-services > ul > li {
+    font-size: 20px;
+    margin: 2rem 12rem;
+    color: white;
+}
+.patent-services > h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.patent-services > ul > li {
+    font-size: 20px;
+    margin: 2rem 12rem;
+    color: white;
+}
+
+.project-services {
+    background-color: #fff;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+.project-grid{
+    max-width: 350px;
+    min-width: 280px;
+    max-height: 400px;
+}
+
+@media only screen and (max-width: 500px) {
+    .project-services {
+        height: 300vh;
+    }
+}
+
+.project-header{
+    text-align: center;
+    margin: 0;
+    color: #191919;
+    font-size: 3rem;
+    background-color: #fff;
+}
+
+.project-grid {
+    margin: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    background-color: aqua;
+    rotate: 3deg;
+}
+
+.project-grid:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    scale: 1.1;
+    transition: all 500ms ease-in-out;
+    rotate: 0deg;
+}
+
+.project-grid > h3{
+    margin-top: 5px;
+    color: #191919;
+    text-decoration: none;
+}
+
+.project-grid-header,
+.project-grid-para{
+    text-decoration: none;
+    
+}
+
+.project-grid > p {
+    opacity: 0.6;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.technology-services{
+    background-color: #fff;
+    height: fit-content;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.technology-services > div {
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    place-items: center;
+    margin:  0 2.2rem;
+    background-color: rgba(102, 102, 102, 0.096);
+}
+
+.technology-services > div > div > img,
+.front-end > div > img,
+.react > div > img,
+.next > div > img  {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.front-end, .html, .backend, .python, .js, .css {
+    padding: 1.2rem;
+    border-radius: 3px;
+    margin-top: 2rem;
+}
+.front-end {
+    border : 2px solid #6f1a1a;
+}
+
+.front-end > div, .backend > div, .react > div, .next > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.html {
+   border: 3px solid orangered;
+}
+
+.react  {
+    border: 3px solid rgb(6, 83, 109);
+}
+
+.next {
+    border: 3px solid grey;
+}
+
+.css{
+    border: 3px solid rgba(0, 0, 255, 0.681);
+}
+
+.js{
+   border: 3px solid yellow;
+}
+
+.backend {
+   border: 3px solid #000;
+}
+
+.python {
+   border: 3px solid rgba(3, 181, 221, 0.703);
+}
+
+.react > h2 {
+    color: rgb(6, 83, 109);
+}
+
+.next > h2{
+    color: grey;
+}
+
+.front-end > h2 {
+    color: #6f1a1a;
+}
+
+.backend > h2 {
+    color: #000;
+}
+
+.js > h2 {
+    color: yello;
+}
+
+.python > h2 {
+    color: rgba(3, 181, 221, 0.703);
+}
+
+.css > h2 {
+    color: rgba(0, 0, 255, 0.681);
+}
+
+.html > h2 {
+    color: orangered;
+}
+
+.technology-services > div > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+@media only screen and (max-width: 600px){
+    .technology-services > div > div{
+        flex-direction: column;
+    }
+}
+
+.technology-services > div > div > h2 {
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.technology-services > div> div > h5 {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+.learning-services {
+    display: grid;
+    background-color: #FFFFFF;
+    height: fit-content;
+    display: grid;
+    place-items: center;
+}
+
+.learning-header {
+    text-align: center;
+    margin-top: 0;
+    font-size: 3rem;
+    background-color: #66666623;
+}
+
+.e-learning, .nptel, .coursera, .linked-learning, .udemy{
+    background-color: #66666623;
+    margin: 1.2rem 20%;
+    padding: 2%;
+}
+
+.e-learning > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .e-learning > div, .linked-learning > div {
+        flex-direction: column-reverse;
+    }
+}
+
+.linked-learning > div > img {
+    width: 270px;
+    height: 180px;
+    object-fit: cover;
+    margin: 2%;
+}
+
+.linked-learning > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linked-learning > h3, 
+.linked-learning > h4, 
+.linked-learning > h2{ 
+    padding: 2%;
+}
+
+.nptel > img {
+    width: 80%;
+    height: 100%;
+    margin: 2%;
+}
+
+.nptel > p {
+    padding-bottom: 2%;
+}
+
+.nptel > h4 {
+    padding: 2%;
+}
+
+.nptel > table {
+    border: 1px solid grey;
+}
+
+.nptel > table  tr,
+.nptel > table > tr  th,
+.nptel > table > tr  td {
+    border: 1px solid grey;
+    padding: 1%;
+}
+
+.nptel > ul {
+    padding: 2%;
+}
+.nptel > ul > li {
+    padding: 1%;
+}
+
+.udemy > div > img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.udemy > p , .udemy > h5 {
+    padding: 2%;
+}
+.udemy > ol > li {
+    padding: 1%;
+}
+
+.udemy > table , .udemy > table > tr, .udemy > table> tr > th, .udemy > table > tr > td {
+    border: 1px solid #666;
+}
+.udemy > table > tr, .udemy > table> tr > th, .udemy > table > tr > td{
+    padding: 2%;
+}
+
+.coursera > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width) {
+    .coursera > div{
+        flex-direction: column;
+    } 
+}
+
+.coursera > div > img {
+    margin: 2%;
+}
+.coursera > h4{
+    padding: 2%;
+}
+
+.coursera > ol> li {
+    padding: 1%;
+}
+
+.coursera > h3, .coursera > p {
+    padding: 1%;
+}
+
+
+
+.internship-services {
+    height: 500vh;
+    background-color: #fff;
+    
+}
+
+
+.internship-grid {
+    margin: 0 14%;
+    padding-top: 10%;
+    display: grid;
+    place-items: center;
+    box-shadow: 10px 10px 10px #666;
+    cursor: pointer;
+}
+
+
+.internship-grid > p {
+    padding: 1.3rem;
+}
+.competition-services {
+    height: 650vh;
+    background-color: #fff;
+    
+}
+
+.competition-grid {
+    margin: 0 14%;
+    padding-top: 10%;
+    display: grid;
+    place-items: center;
+    box-shadow: 10px 10px 10px #666;
+    cursor: pointer;
+}
+
+.competition-grid > h1 {
+    margin: 1.2rem;
+    font-size: 2.6rem;
+}
+
+.competition-grid > p {
+    padding: 1.3rem;
+}
+
+.internship-services {
+    height: 300vh;
+    background-color: #fff;
+}  
+
+
+
+.coding-services {
+    height: fit-content;
+    background-color: #fff;
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .coding-services {
+        height: 500vh;
+    }
+}
+
+.coding-grid {
+    margin: 0 24%;
+    padding-top: 3%;
+    box-shadow: 10px 10px 10px #666;
+    cursor: pointer;
+}
+
+.coding-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coding-grid:nth-child(2){
+    flex-direction: row-reverse;
+}
+.coding-grid:nth-child(4){
+    flex-direction: row-reverse;
+}
+
+.coding-grid > img {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.coding-grid > p {
+    padding: 1.3rem;
+}

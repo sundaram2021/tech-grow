@@ -1,0 +1,91 @@
+.contact-page {
+    height: 100vh;
+    background: linear-gradient(89.9deg, #5D0D56 -5.97%, #E80370 57.28%, #FD6542 140.86%);
+}
+
+.contact-header {
+    margin-bottom: 1.4rem;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact-grid{
+    width: 65%;
+    /* box-shadow: 5px 20px 10px #fff; */
+    border-radius: 10px;
+    background-color: #191919;
+    /* transition: width 2s, height 2s, background-color 2s, transform 2s;
+    animation: contactLoader 3s ease in out delay iteration-count direction fill-mode;
+    animation-iteration-count: 1; */
+}
+/* 
+@keyframes contactLoader {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360%);
+    }
+} */
+
+
+
+.contact-grid > section {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.contact-grid > button {
+    width: 120px;
+    height: 40px;
+    margin: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+    background: linear-gradient(89.9deg, #5D0D56 -5.97%, #E80370 57.28%, #FD6542 140.86%);;
+}
+
+.contact-grid > button:hover{
+    background: #191919;
+    color: #FFFFFF;
+    border: 2px solid #dfdddd;
+}
+
+.textarea {
+    margin: 1.2rem 1.4rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 2%;
+    font-size: 13px;
+}
+.textarea::placeholder {
+    font-size: 1.2rem;
+    opacity: 0.4;
+}
+
+@media only screen and (min-width: 900px) {
+    .contact-grid{
+        height: 80vh;
+        width: 60vh;
+    }
+    .textarea{
+        padding: 2%;
+    }
+
+    .contact-grid > button{
+        margin-left: 3%;
+    }
+}
