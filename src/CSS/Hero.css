@@ -1,0 +1,194 @@
+.hero-header{
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    margin-left: 550px;
+    background-color: #191919;
+    
+}
+
+.slogan{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+    width: 550px;
+    height: 125px;
+    text-align: center;
+    color: white;
+    text-shadow: 10px 10px 50px #E80370 ;
+}
+.slogan-subheader{
+    width: 388px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(252, 252, 252, 0.5);
+    margin-top: 10px;
+}
+
+.get-started-btn{
+    width: 170px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    height: 35px;
+    border: 1px solid #FFFFFF;
+    margin-top: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: #191919;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.get-started-btn:hover,
+.get-started-btn:active{
+    background-color: #191919;
+    color: #FFFFFF;
+}
+
+.btn-div{
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 120px;
+    background-color: #191919;
+}
+
+
+.btn-div > button {
+    width: 130px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    /* color: #FFFFFF; */
+}
+.project{
+    background: linear-gradient(90deg, #FD6542 8.19%, #E80370 49.3%, #5D0D56 94.64%);
+    transform: matrix(0.95, -0.35, 0.32, 0.94, 0, 0);
+}
+
+.btn-div > button:nth-child(1){
+    background: linear-gradient(90deg, #FD6542 8.19%, #E80370 49.3%, #5D0D56 94.64%);
+    transform: matrix(0.97, -0.24, 0.22, 0.97, 0, 0);
+}
+.btn-div > button:nth-child(2){
+    background: linear-gradient(90deg, #FD6542 8.19%, #E80370 49.3%, #5D0D56 94.64%, #5D0D56 106.18%);
+    transform: matrix(0.98, 0.19, -0.18, 0.98, 0, 0);
+}
+.btn-div > button:nth-child(3){
+    background: linear-gradient(90deg, #FD6542 8.19%, #E80370 49.3%, #5D0D56 94.64%);
+    transform: matrix(0.93, -0.39, 0.36, 0.92, 0, 0);
+}
+.btn-div > button:nth-child(4){
+    background: linear-gradient(90deg, #FD6542 8.19%, #E80370 49.3%, #5D0D56 94.64%);;
+    transform: matrix(0.99, 0.14, -0.13, 0.99, 0, 0);
+}
+.btn-div > button:nth-child(5){
+    background: linear-gradient(89.9deg, #5D0D56 -5.97%, #E80370 57.28%, #FD6542 140.86%);
+    transform: matrix(0.95, -0.35, 0.32, 0.94, 0, 0);;
+}
+.btn-div > button:nth-child(6){
+    background: linear-gradient(90deg, #FD6542 8.19%, #E80370 49.3%, #5D0D56 94.64%);
+    transform: matrix(0.95, 0.34, -0.31, 0.94, 0, 0);
+}
+.btn-div > button:nth-child(7){
+    background: linear-gradient(90deg, #FD6542 8.19%, #E80370 49.3%, #5D0D56 94.64%);
+    transform: matrix(0.98, -0.24, 0.22, 0.97, 0, 0);
+}
+
+.hero-summary{
+    color: #FFFFFF;
+    z-index: 999;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 35px;
+    margin-left: 100px;
+    opacity: 0.8;
+    background-color: #191919;
+}
+
+
+@media only screen and (max-width: 560px) {
+    .hero-header{
+        margin-left: 25px;
+    }
+    .slogan {
+        margin: 0;
+        width: 400px;
+        font-size: 33px;
+    }
+    .slogan-subheader{
+        width: 340px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .btn-div > button:nth-child(4){
+        display: none;
+    }
+    .btn-div > button:last-child{
+        display: none;
+    }
+    .btn-div > button:nth-child(6){
+        display: none;
+    }
+
+    .hero-summary{
+        font-size: 14px;
+        margin-bottom: 22px;
+        margin-left: 2px;
+    }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 1060px){
+    .hero-header{
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (min-width: 1060px) {
+    .hero-header{
+        margin-left: 34%;
+    }
+    .slogan {
+        font-size: 65px;
+    }
+    .slogan-subheader{
+        font-size: 16px;
+    }
+    .btn-div {
+        margin-top: 115px;
+    }
+    .hero-summary{
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 680px){
+    .hero-header{
+        margin-left: 12%;
+    }
+    .btn-div > button:nth-child(4){
+        display: none;
+    }
+    
+}
+
+/* 
+
+
+
+ */

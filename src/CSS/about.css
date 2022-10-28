@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+
+#about-page{
+    background-color: rgb(230, 247, 249);
+    height: 150vh;
+}
+
+#about-page > h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Robot Mono;
+}
+
+.about-grid{
+    padding: 1.2rem 13%;
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(400px, 1fr));
+
+}
+
+.about-grid > h3{
+    /* text-align: center; */
+    font-family: Roboto Mono;
+    margin: 1.2rem 15%;
+}
+
+
+
+.about-grid > img {
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    margin: 1.2rem 10%;
+
+}
+@media only  screen and (min-width: 900px){
+    .about-grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }  
+    
+    .about-grid > h3 {
+        margin: 1.2rem 15%;
+    }
+
+    .about-grid > img  {
+        width: 500px;
+        height: 400px;
+        background-size: cover;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .about-grid > img {
+        margin: 1.2rem 5%;
+    }
+}

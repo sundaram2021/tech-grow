@@ -1,0 +1,55 @@
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    height: 100vh;
+    place-items: center;
+    margin-bottom: 1.3rem;
+}
+
+.services-grid a {
+    text-decoration: none;
+    color: inherit;
+}
+.grid-card {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 281px;
+    border-radius: 20px;
+    margin-top: 1.3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    cursor: pointer;
+}
+
+.grid-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    scale: 1.1;
+    transition: all 0.3s ease-in-out;
+}
+
+.grid-img{
+    width: 250px;
+    border-radius: 15px;
+    margin-top: 5px;
+    height: 180px
+}
+
+.grid-para{
+    width: 220px;
+    /* text-align: center; */
+    margin-top: 1.1rem;
+    text-decoration: none;
+}
+.grid-header{
+    text-decoration: none;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    /* background: linear-gradient(89.9deg, #5D0D56 -5.97%, #E80370 57.28%, #FD6542 140.86%); */
+}

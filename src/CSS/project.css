@@ -1,0 +1,144 @@
+.project-iot {
+    background-color: #fff;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-iot > div {
+    background-color: #66666600;
+    margin: 1.2rem 20%;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-iot> div:nth-child(1){
+    border: 3px solid #191919;
+    border-radius: 5px;
+    padding: 1%;
+}
+.project-iot> div:nth-child(2){
+   border: 3px solid #332924;
+   border-radius: 6.5px;
+   padding: 1%;
+}
+.project-iot> div:nth-child(3){
+   border: 3px solid #241515;
+   border-radius: 5.2px;
+   padding: 1%;
+}
+.project-iot> div:nth-child(4){
+   border: 3px solid #313131;
+   border-radius: 6.9px;
+   padding: 1%;
+}
+.project-iot> div:nth-child(5){
+   border: 3px solid #220101;
+   border-radius: 6.9px;
+   padding: 1%;
+}
+
+.project-iot > div:hover{
+    box-shadow: 10px 10px 10px #1919196f;
+    scale: 1.04;
+    
+}
+
+.main-section >  h2 {
+    padding: 2%;
+    text-align: center;
+    padding: 2% 12%;
+}
+
+.main-section > img{
+    margin: 2% 10%;
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.project-iot > div > div:last-child {
+    margin-left: 15%;
+}
+
+
+
+.project-cyber {
+    height: fit-content;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.project-cyber > h2 {
+    padding: 5% ;
+    text-align: center;
+}
+
+.project-cyber > p {
+    /* text-align: center; */
+    margin: 2.3% 25%;
+}
+
+.project-cyber > strong {
+    text-align: center;
+}
+
+.project-cyber > img {
+    background-size: cover;
+    width: 350px;
+    margin: 2% 40%
+}
+
+
+
+
+
+
+
+.project-cloud {
+    height: 400vh;
+    background-color: #fff !important;
+    display: grid;
+    place-items: center;
+}
+
+.project-cloud > div {
+    background-color: rgba(102, 102, 102, 0.09);
+}
+
+.project-cloud > div {
+    display: grid;
+    place-items: center;
+    width: 70%;
+}
+
+.project-cloud > div >  h2 {
+    padding: 1% ;
+    text-align: center;
+}
+
+.project-cloud > div >  p {
+    /* text-align: center; */
+    margin: 0 15%;
+    height: 50vh;
+}
+
+
+.project-cloud > div > div {
+    margin-left: 5%;
+    display: flex;
+    margin-top: -105px;
+}
+
+
